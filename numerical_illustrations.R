@@ -545,3 +545,12 @@ message(
   "Two figures saved as includable and standalone TikZ files to: ",
   normalizePath(figure_dir)
 )
+
+      # Record session information for reproducibility
+sessionInfo()
+
+# Save session information as a text file
+writeLines(
+  capture.output(sessionInfo()),
+  file.path(output_dir, "sessionInfo.txt")
+)
