@@ -5,6 +5,7 @@
 This supplementary material accompanies the manuscript *A Causal Approach to Careless Responding*, submitted to *Methodology*.
 
 The R script reproduces the two numerical illustrations presented in the manuscript.
+The R version and details of the packages used in this analysis are provided in the sessionInfo.txt file.
 
 ## Numerical Illustrations
 
