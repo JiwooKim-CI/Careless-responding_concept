@@ -9,7 +9,7 @@ n <- 1000
 B <- 100
 n_random <- 20
 seed <- 123
-output_dir <- "illustration3_detection_crcr_results"
+output_dir <- "numerical_illustrations_results"
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 generate_data <- function(
