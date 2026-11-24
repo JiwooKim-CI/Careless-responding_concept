@@ -312,7 +312,7 @@ saveRDS(list(generation = generation_results, detection = detection_results,
              detection_conditions = subset(conditions, mechanism == "CRCR"),
              settings = list(n = n, B = B, n_random = n_random, seed = seed,
                              crnar_rho = -0.5)), file.path(output_dir, "all_results.rds"))
-writeLines(capture.output(sessionInfo()), file.path(output_dir, "sessionInfo.txt"))
+
 print(stage1_summary, n = Inf, width = Inf)
 print(stage2_summary, n = Inf, width = Inf)
 print(structure_summary, n = Inf, width = Inf)
